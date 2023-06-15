@@ -6,8 +6,8 @@ const person = {
 };
 
 let team = players;
-let team1 = players;
-const cap1 = person;
+let team1 = players.slice(0);
+const cap1 = person.slice(0);
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
 window.players = players;
